@@ -3,10 +3,14 @@ Dockerfile for tao testing
 
 # taoをスタート 
 
+Dockerfileを置いたディレクトリで下記を実行する。
+
 ```
 $ docker build -t tao .
 $ docker run -d --name tao -p 80:80 tao
 ```
+
+http://127.0.0.1/ でtaoを使うことができる。
 
 # Docker初心者のためのメモ
 
